@@ -1,0 +1,120 @@
+nav{
+    background-color: #333;
+    overflow: hidden;
+}
+
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 14px 20px;
+    display: block;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+
+}
+
+nav a.menu_left{
+    float: left;
+}
+
+#flex_container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#left_side{
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    margin: 0px 20px 0px 20px;
+
+}
+
+#left_side h2{
+    font-size: 1em;
+
+}
+
+#right_side{
+    padding: 10px 20px;
+    flex: 70%;
+    margin: 0px 20px 0px 20px;
+}
+
+#right_side h2{
+    font-size: 1.75em;
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: lighter;
+
+}
+
+.one{
+    padding: 10px 30px;
+    line-height: 1.75em;
+}
+
+.two{
+    padding: 10px 30px 0px 30px;
+    line-height: 1.75em;
+}
+
+footer{
+    clear: both;
+    padding: 14px 20px;
+    color : black;
+    background-image: url(D:/web2/asset/2.jpg);
+    background-repeat: no-repeat;
+}
+
+ol,li{
+    list-style: none;
+}
+
+form{
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+#contactform{
+    background: #9AB4D7;
+    padding: 20px;
+    width: 400px;
+    border: solid #6E3E4D 2px;
+    -webkit-border-radius:18px;
+    -moz-border-radius:18px;
+    border-radius: 18px;
+}
+
+#contact{
+    margin :0;
+    padding-bottom:10px ;
+}
+
+#contactform fieldset{
+    margin-bottom: 20px;
+}
+
+legend{
+    color:#384313;
+    font-size: 1em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#contactform label{
+    float:left;
+    font-size: 13px;
+    width: 110px;
+    margin-right: 65px;
+}
+
+#contactform label[for=yes] ,#contactform label[for=no]{
+    float: none;
+}
